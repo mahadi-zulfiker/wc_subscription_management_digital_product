@@ -1,0 +1,106 @@
+.digital-product, .subscription-plan {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.download-button, .subscribe-button {
+    display: inline-block;
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-button:hover, .subscribe-button:hover {
+    background: #005177;
+}
+/* Container for all subscription boxes */
+.subscription-plans-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between subscription boxes */
+    justify-content: space-between;
+}
+
+/* Individual subscription box */
+.subscription-plan {
+    width: calc(33.33% - 20px); /* 3 boxes in a row, adjust for margin */
+    box-sizing: border-box; /* Prevent overflow */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 20px; /* Space at the bottom of each box */
+}
+
+.subscription-plan h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subscription-plan p {
+    margin: 10px 0;
+}
+
+.subscribe-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.subscribe-button:hover {
+    background-color: #005bb5;
+}
+.digital-products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.digital-product {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+.digital-product-container {
+    display: flex;
+    gap: 20px;
+}
+.digital-product img.product-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Ensure consistent image sizes */
+    margin-bottom: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #005bb5;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
