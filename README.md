@@ -57,7 +57,7 @@ The **Digital Subscription Plugin** integrates with **WooCommerce** to offer a *
 
 ## Support & Contributing
 Feel free to **report issues** or **contribute** via GitHub.  
-For support, contact **amitavrchy01@gmail.com**.  
+For support, contact **mahade.adib45@gmail.com**.  
 
 ---
 
